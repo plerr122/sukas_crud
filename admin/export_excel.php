@@ -1,6 +1,6 @@
 <?php
-require 'vendor/autoload.php';
-require 'koneksi.php';
+require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/../koneksi.php';
 
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
