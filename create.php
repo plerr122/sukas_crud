@@ -81,6 +81,8 @@ if (isset($_POST['simpan'])) {
 </head>
 <body>
 
+<button>Log Out</button>
+
 <div class="container">
     <h2>Tambah Menu Seblak</h2>
     <form method="POST" action="">
