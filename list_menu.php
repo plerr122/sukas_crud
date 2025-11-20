@@ -1,6 +1,6 @@
 <?php
 include 'koneksi.php';
-$query = "SELECT * FROM menu_items ORDER BY item_id DESC";
+$query = "SELECT * FROM menu_items ORDER BY item_id ASC";
 $result = mysqli_query($koneksi, $query);
 ?>
 
@@ -89,6 +89,8 @@ $result = mysqli_query($koneksi, $query);
         </tr>
         <?php } ?>
     </table>
+
+    <a href="logout.php">Log Out</a>
 </div>
 
 </body>
